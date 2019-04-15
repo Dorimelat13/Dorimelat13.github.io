@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic');
+
+body {
+	font-family: 'Roboto', Sans-serif;
+}
+
+/* header */
+
+.section-header {
+	color: #ffffff;
+	background: url(res/img_1.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.section-inner {
+	height: 100vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.section-header-links {
+	text-align: right;
+	padding-top: 32px;
+	padding-right: 100px;
+}
+
+.section-header-links a{
+	font-size: 24px;
+	padding-right: 45px;
+
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.section-header-links a:last-child{
+	padding-right: 0;
+}
+
+.section-header-links a:hover{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.section-header-content {
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+}
+
+.section-header-wrapper {
+	margin: 0 auto;
+}
+
+.section-header-wrapper__title {
+	font-size: 96px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.section-header-wrapper__btn {
+	text-align: center;
+	font-size: 48px;
+	padding-top: 105px;
+}
+
+.section-header-wrapper__btn a {
+	text-decoration: none;
+	color: #ffffff;
+	
+	border: 3px solid #ffffff;
+	border-radius: 30px;
+
+	padding: 25px 10px 25px 10px;
+}
+	
+.section-header-wrapper__btn a:hover {
+	background-color: yellow;
+}
+
+/* /header */
+
+/* Promo */
+
+.section-promo-1 {
+	font-size: 36px;
+}
+
+.section-promo-title {
+	font-weight: bold;
+	font-size: 64px;
+	text-align: center;
+	padding-top: 64px;
+
+}
+
+.section-promo-1 {
+	display: flex;
+	padding-top: 64px;
+}
+
+.section-promo-1__item-1 , 
+.section-promo-1__item-2  {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.section-promo-1__item-1 {
+	padding-left: 300px;
+}
+
+.section-promo-1__item-2 {
+	padding-right: 300px;
+}
+
+.section-promo-1-title {
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+
+
+
+.section-promo-2 {
+	display: flex;
+	padding-top: 50px;
+	font-size: 36px;
+
+}
+
+
+
+.section-promo-2__item-1 , 
+.section-promo-2__item-2 , 
+.section-promo-2__item-3  {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.section-promo-2-title {
+	padding-top: 64px;
+}
+
+
+/* /Promo */
+
+/* Program */
+
+.section-program {
+	background: url(res/block_3.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.section-program-title {
+	text-align: center;
+	padding-top: 96px;
+	font-size: 64px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.section-program-item {
+	display: flex;
+	padding-top: 120px;
+}
+
+.section-program-item__item-1 {
+	padding-left: 120px;
+}
+
+.section-program-item__item-1__line {
+	height: 125px;
+	border-left: 2px solid grey;
+	margin-left: 62px;
+}
+
+.section-program-item__item-1__active-day {
+	color: #ffffff;
+	font-size: 76px;
+	font-weight: bold;
+
+	padding: 17px 39px 13px 39px;
+	border:2px solid #ffffff;
+	border-radius: 60px;
+}
+
+.section-program-item__item-1__active-day a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.section-program-item__item-1__another-day {
+	color: #ffffff;
+	font-size: 76px;
+	font-weight: bold;
+
+	padding: 17px 39px 13px 39px;
+	border:2px solid grey;
+	border-radius: 60px;
+}
+
+.section-program-item__item-1__another-day a {
+	text-decoration: none;
+	color: grey;	
+}
+
+.section-program-item__item-2 {
+	width: 40%;
+	padding-left: 50px;
+}
+
+.section-program-item__item-2__title {
+	font-size: 48px;
+	color: #ffffff;
+	padding-top: 25px;
+}
+
+.section-program-item__item-2__information {
+	width: 550px;
+	font-size: 24px;
+	color: #ffffff;
+	padding-top: 20px;
+}
+
+.section-program-item__item-3__img {
+	text-align: right;
+	padding-right: 120px;
+}
+
+.section-program-item__item-3__slider-link {
+	text-align: right;
+	padding-right: 120px;
+}
+
+.section-program-item__item-3__slider-link a {
+	display: inline;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 36px;
+}
+
+.section-program-item__item-3__slider-link a:hover {
+	color: yellow;
+}
+/* /Program */
+
+
+/* Pay */
+.section-pay-title {
+	font-weight: bold;
+	font-size: 64px;
+	text-align: center;
+	padding-top: 64px;
+}
+.section-pay-item {
+	display: flex;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	width: 850px;
+
+	margin: 0 auto;
+}
+
+.section-pay-days {
+	padding-right: 120px;
+	font-size: 80px;
+	font-weight: bold;
+	color: grey;
+}	
+
+.section-pay-information {
+	padding-top: 20px;
+	font-size: 40px;
+	color: grey;
+}
+
+/* /Pay */
+
+/* Team */
+.section-team {
+	background: url(res/img_2.png) no-repeat 50% 50%;
+	background-size: cover;
+	color: #ffffff;
+}
+.section-team-title {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 64px;
+	text-align: center;
+	padding-top: 64px;	
+}
+.section-team-item {
+	margin: 0 auto;
+	width: 25%;
+
+}
+.section-1 {
+	display: flex;
+}	
+
+.section-team-firstname {
+	font-size: 48px;
+	padding-top: 230px;
+	text-align: center;
+
+}
+
+.section-team-information {
+	font-size: 30px;
+	padding-top: 40px;
+	border-top: 1px solid #ffffff;
+	margin-top: 25px;
+}
+/* /Team */
+	
+
+/* Footer */
+.section-footer {
+	background-color: #040204;
+	background-size: cover;	
+	color: #ffffff;
+}
+
+.section-footer-caller {
+	display: flex;
+}
+
+
+.section-footer-item-1 {
+	padding-left: 200px;
+	width: 450px;
+}
+
+.section-footer-item-2 {
+	margin-left: auto;
+	margin-right: 300px;
+	width: 600px;
+	padding-left: 100px;
+}
+
+.section-footer-title {
+	text-align: center;
+	padding-top: 64px;
+	font-size: 64px;
+	font-weight: bold;
+}
+
+.section-footer-item-1__title {
+	font-size: 24px;
+	text-align: center;
+	padding-top: 36px;
+
+}
+
+.section-footer-item-1__input-name, 
+.selection-footer-item-1__input-phonenumber,
+.section-footer-item-1__call {
+	margin: 0 auto;
+	text-align: center;
+}
+.section-footer-item-1__input-name input,
+.selection-footer-item-1__input-phonenumber input
+
+{
+	padding-top: 36px;
+	margin-top: 36px;
+	width: 300px;
+	font-size: 30px;
+	
+	padding: 15px 25px 15px 25px;
+
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 30px;
+}
+
+.section-footer-item-1__call {
+	margin-top: 36px;
+}
+
+.section-footer-item-1__call a{
+	padding-top: 36px;
+	width: 300px;
+	font-size: 30px;
+	
+	padding: 15px 25px 15px 25px;
+
+	border: 1px solid yellow;
+	background: yellow;
+	border-radius: 30px;
+
+	text-decoration: none;
+	color: black;
+}
+
+.section-footer-item-1__call a:hover {
+	color: yellow;
+	background: black;	
+}
+
+
+.section-footer-contacts__adress,
+.section-footer-contacts__mail,
+.section-footer-contacts__phonenumber {
+	font-size: 36px;
+	padding-top: 36px;
+
+
+}
+
+
+.section-footer-contacts__title {
+	padding-top: 36px;
+	font-size: 48px;
+}
+
+.section-inner-footer {
+	height: 75vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+/* /Footer */
