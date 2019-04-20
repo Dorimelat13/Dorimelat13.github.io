@@ -1,0 +1,369 @@
+/* 
+#010101
+#69779b
+#acdbdf
+#f0ece2
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700,900i&subset=cyrillic-ext');
+
+body {
+	font-family: 'Montserrat', Sans-serif;
+
+
+	color: #010101;
+	background-color: #f0ece2;
+}
+
+h4 , h6 {
+	margin: 0;
+	padding: 0;
+}
+
+h4 {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+h6 {
+	font-weight: 400;
+	font-size: 10px;
+	color: grey;
+}
+/* HEADER */
+header {
+	background-color: #69779b;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;	
+
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+
+	width: 100%;
+	max-width: 960px;
+}
+
+.header-logo a{
+	font-weight: 900;
+	font-size: 24px;
+	color: #f0ece2;
+	text-decoration: none;
+}
+
+.header-search a{
+	color: #f0ece2;
+	padding-left: 25px;
+	padding-right: 25px;
+
+	font-size: 18px;
+}
+
+.header-profile {
+	display: flex;
+	align-items: center;
+}
+
+.header-profile__name {
+	color: #f0ece2;
+	font-size: 18px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.profile__icon img,
+.profile__icon-friends img {
+	margin: 0;
+	padding: 0;
+	width: 25px;
+	height: 25px;
+
+	border-radius: 100px;
+}
+
+
+/* Main */
+
+article {
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+	margin: 0;
+}
+
+.art_settings {
+	align-items: flex-start;
+	padding-top: 10px;
+}
+
+.art_fastlink {
+	flex: 1;
+}
+
+.art_fastlink__links li,
+.art_recomendation__basic li {
+	list-style-type: none;
+	padding-top: 5px;
+}
+
+.art_fastlink__links a,
+.art_recomendation__basic a,
+.art_fastlink__about a,
+.art_recomendation__hot a {
+
+	text-decoration: none;
+	color: #69779b;
+
+	font-size: 10px;
+}
+
+.art_fastlink__links i {
+	font-size: 12px;
+	width: 22px;
+}
+
+
+.art_fastlink__links a:hover,
+.art_recomendation__basic a:hover,
+.art_fastlink__about a:hover {
+	font-weight: bold;
+}
+
+.art_fastlink__about {
+	-ms-align-items: center;
+	align-items: center;
+	padding-top: 10px;
+}
+
+.art_fastlink__about a {
+	font-size: 8px;
+}
+
+.art_news {
+	flex: 3;
+}
+
+.art_recomendation { 
+	flex: 1;
+}
+
+.art_recomendation__basic {
+	border: 2px solid  #ffffff;
+	background: #ffffff;
+	border-radius: 10px; 
+}
+.art_recomendation__basic li {
+	padding: 5px;
+}
+.art_recomendation__basic li:hover {
+	background: #f9f9f9;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+
+
+.art_recomendation__hot {
+	margin-top: 10px;
+	padding: 5px;
+
+	border: 2px solid  #ffffff;
+	background: #ffffff;
+	border-radius: 5px;
+
+}
+
+.art_recomendation__hot i {
+	color: red;
+	width: 15px;
+
+
+}
+.art_news {
+	padding: 0 15px;
+}
+
+
+.art_news__myNews {
+	padding: 3px;
+	padding-top: 5px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+
+	border: 2px solid  #ffffff;
+	background: #ffffff; 
+	border-radius: 10px;
+}
+
+
+.profile__icon img {
+	margin-top: 4px;
+	margin-left: 10px;
+}
+
+.art_news__myNews-myInput{
+	margin-left: 10px;
+	flex-grow: 1;
+	flex: 5;
+}
+
+.art_news__myNews-fastLink {
+	flex: 2;
+	text-align: right;
+}
+
+.art_news__myNews-fastLink i {
+	margin: 0 2px;
+	color: #69779b;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+
+
+.art_news__history__title {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.art_news__history__title a {
+	text-decoration: none;
+	font-size: 12px;
+	color: grey;
+}
+
+.art_news__history {
+	margin-top: 10px;
+	padding: 10px; 
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	background: #ffffff;
+	color: black;
+
+}
+
+.art_news__history-friend-history {
+	display: flex;
+	padding-top: 10px;
+}
+
+
+.history_img {
+	height: 165px;
+
+	margin: 5px;
+	border-radius: 10px;
+
+	flex: 1;
+	justify-content: space-around;
+	text-align: center;
+
+}
+
+.h_img-1 {
+	background: url(res/history/MartinSchoeller20.jpg) 50% 50%;
+	background-size: cover;
+}
+
+.h_img-2 {
+	background: url(res/history/27967765-the-world-in-faces-14-1487069448-1000-47c07478ac-14.jpg) 50% 50%;
+	background-size: cover;
+}
+
+.h_img-3 {
+	background: url(res/history/362583170efa3407b028650809bbf94d.jpg) 50% 50%;
+	background-size: cover;
+}
+
+.h_img-4 {
+	background: url(res/history/man_startup_glasses_bart_young_blond_portrait_face-1207001.jpg!d) 50% 50%;
+	background-size: cover;
+}
+
+.h_img-5 {
+	background: url(res/history/c2a30c287d05b79d30cfcd96cc9be056.jpg) 50% 50%;
+	background-size: cover;
+}
+
+.profile__icon-friends {
+	padding-top: 90px;
+}
+.profile__icon-friends img {
+	border: 2px solid #acdbdf;
+	padding: 2px;
+}
+
+.profile_name {
+	color: #ffffff;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+	font-size: 12spx;
+	font-weight: bold;
+}
+
+/* NEWS */
+
+.art_news__tape-1 {
+	border-radius: 15px;
+	background: #ffffff;
+	margin-bottom: 15px;
+}
+
+.art_news__tape {
+	padding-top: 10px;
+}
+
+.art_news-title {
+	display: flex;
+	align-items: center;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.profile__name {
+	padding-left: 5px;
+	flex: 4;
+}
+
+.tape-set {
+	text-align: right;
+	padding-right: 10px;
+	flex: 1;
+}
+
+.art_news_block-subtitle {
+	font-size: 12px;
+	padding: 10px;
+}
+
+.art_news_block-img img { 
+	max-width: 535px; 
+	width:100%;
+	padding: 10px;
+
+}
+
+.like {
+	padding: 5px 10px;
+}
+
+.like i {
+	margin-right: 15px;
+	font-size: 22px;
+	color: #69779b;
+
+}
+
+
+
